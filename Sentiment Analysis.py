@@ -12,7 +12,7 @@ import nltk
 
 plt.style.use('ggplot')
 # reading file from csv
-df = pd.read_csv("/Users/abhiramyashwanthpusarla/Downloads/Reviews.csv")
+df = pd.read_csv("*Add your Path* /Reviews.csv")
 print(df.shape)
 df = df.head(500)
 print(df.shape)
